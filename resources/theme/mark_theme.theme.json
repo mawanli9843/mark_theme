@@ -198,11 +198,16 @@
       "offBackground": "#1c3228",
       "buttonColor": "#3c855f"
     },
+
+    "Tooltip.Learning.borderColor":"#029636",
+    "ToolTip.shortcutForeground": "#029636",
     "ToolTip": {
+      "paintBorder": true,
       "foreground": "#eeeeee",
-      "background": "#111111",
+      "background": "#003300",
       "borderColor": "#029636",
-      "Actions.background": "#111111"
+
+      "Actions.background": "#003300"
     },
 
     "ToolWindow": {
