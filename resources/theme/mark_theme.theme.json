@@ -43,7 +43,6 @@
       "focusedBorderColor": "#003300",
       "separatorColor": "#111111"
     },
-
     "Tree": {
       "background": "#111111",
       "selectionBackground": "#003300"
@@ -59,7 +58,6 @@
       "ContrastBorderColor": "#111111"
     },
     "Button": {
-
       "startBackground": "#003300",
       "endBackground": "#003300",
       "startBorderColor": "#003300",
@@ -77,7 +75,9 @@
       }
     },
     "CompletionPopup": {
-      "matchForeground": "#029636"
+      "matchForeground": "#029636",
+      "selectionInactiveBackground": "#003300",
+      "selectionBackground": "#003300"
     },
     "Notification": {
       "MoreButton.foreground": "#029636",
@@ -116,17 +116,16 @@
       "selectedForeground": "#cccccc",
       "underlinedTabBackground": "#003300",
       "background": "#11111",
-      "underlineHeight":"2",
+      "underlineHeight": "2",
       "borderColor": "#11111",
       "underlineColor": "#029636",
-      "hoverMaskColor": "#003300",
-      "inactiveMaskColor": "#444444"
+      "hoverBackground": "#003300"
     },
     "Link": {
-      "activeForeground": "#cdd0c5",
-      "hoverForeground": "#cded91",
-      "pressedForeground": "#8da75e",
-      "visitedForeground": "#cebebe"
+      "activeForeground": "#029636",
+      "hoverForeground": "#003300",
+      "pressedForeground": "#029636",
+      "visitedForeground": "#444444"
     },
     "FileColor": {
       "Yellow": "#cee51219",
@@ -159,7 +158,7 @@
     "Table": {
       "stripeColor": "#111111",
       "selectionForeground": "#e4e4e4",
-      "dropLineColor": "#588d67",
+      "dropLineColor": "#029636",
       "focusCellForeground": "#e3e3e3",
       "gridColor": "#456f58"
     },
@@ -192,31 +191,27 @@
       }
     },
     "ToggleButton": {
-      "onForeground": "#27683f",
-      "onBackground": "#9ca9af",
-      "offForeground": "#646464",
-      "offBackground": "#1c3228",
+      "onForeground": "#029636",
+      "onBackground": "#003300",
+      "offForeground": "#003300",
+      "offBackground": "#444444",
       "buttonColor": "#3c855f"
     },
-
-    "Tooltip.Learning.borderColor":"#029636",
+    "Tooltip.Learning.borderColor": "#029636",
     "ToolTip.shortcutForeground": "#029636",
     "ToolTip": {
       "paintBorder": true,
       "foreground": "#eeeeee",
       "background": "#003300",
       "borderColor": "#029636",
-
       "Actions.background": "#003300"
     },
-
     "ToolWindow": {
       "Header": {
         "background": "#111111",
         "inactiveBackground": "#111111",
         "borderColor": "#111111"
       },
-
       "HeaderTab": {
         "selectedInactiveBackground": "#444444",
         "hoverBackground": "#003300",
@@ -247,9 +242,9 @@
       "Log.Commit.currentBranchBackground": "#11111",
       "Log.Commit.unmatchedForeground": "#444444"
     },
-    "ScrollBar" : {
-      "hoverThumbBorderColor" : "#029636",
-      "background" : "#111111",
+    "ScrollBar": {
+      "hoverThumbBorderColor": "#029636",
+      "background": "#111111",
       "hoverThumbColor": "#029636",
       "hoverTrackColor": "#003300",
       "thumb": "#003300",
@@ -261,20 +256,20 @@
       "track": "#003300",
       "Transparent": {
         "thumbColor": "#029636",
-        "hoverThumbBorderColor" : "#029636",
+        "hoverThumbBorderColor": "#029636",
         "hoverThumbColor": "#029636",
         "hoverTrackColor": "#003300",
         "thumbBorderColor": "#029636"
       },
-      "Mac" : {
+      "Mac": {
         "Transparent": {
           "thumbColor": "#003300",
-          "hoverThumbBorderColor" : "#029636",
+          "hoverThumbBorderColor": "#029636",
           "hoverThumbColor": "#029636",
           "hoverTrackColor": "#003300",
           "thumbBorderColor": "#003300"
         },
-        "hoverThumbBorderColor" : "#029636",
+        "hoverThumbBorderColor": "#029636",
         "hoverThumbColor": "#029636",
         "hoverTrackColor": "#003300",
         "thumbBorderColor": "#003300",
