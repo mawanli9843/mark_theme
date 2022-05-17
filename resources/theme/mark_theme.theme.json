@@ -26,26 +26,30 @@
   "ui": {
     "*": {
       "background": "#111111",
-      "foreground": "#cccccc",
+      "foreground": "#eeeeee",
       "infoForeground": "#029636",
       "selectionBackground": "#003300",
-      "selectionForeground": "#cccccc",
-      "selectionInactiveBackground": "#444444",
-      "disabledForeground": "#a3a3a3",
-      "disabledBackground": "#444444",
+      "selectionForeground": "#eeeeee",
+      "selectionInactiveBackground": "#003300",
+      "disabledForeground": "#444444",
+      "disabledBackground": "#111111",
       "inactiveBackground": "#111111",
       "errorForeground": "#b5b5b5",
       "disabledText": "#adadad",
       "Borders.ContrastBorderColor": "#111111",
       "borderColor": "#111111",
-      "disabledBorderColor": "#444444",
+      "disabledBorderColor": "#029636",
       "focusColor": "#003300",
       "focusedBorderColor": "#003300",
       "separatorColor": "#111111"
     },
+
+    "Tree.modifiedItemForeground":"#029636",
+
     "Tree": {
       "background": "#111111",
-      "selectionBackground": "#003300"
+      "selectionBackground": "#003300",
+      "modifiedItemForeground": "#029636"
     },
     "ActionButton": {
       "hoverBackground": "#003300",
@@ -113,7 +117,7 @@
     },
     "Editor.Toolbar.borderColor": "#11111",
     "EditorTabs": {
-      "selectedForeground": "#cccccc",
+      "selectedForeground": "#eeeeee",
       "underlinedTabBackground": "#003300",
       "background": "#11111",
       "underlineHeight": "2",
@@ -172,7 +176,7 @@
       "passedColor": "#7edb7f",
       "passedEndColor": "#2f422f"
     },
-    "windowBorder": "#003300",
+    "windowBorder": "#029636",
     "window": "#003300",
     "PopupMenu.translucentBackground": "#003300",
     "Popup": {
@@ -181,7 +185,7 @@
       "paintBorder": true,
       "background": "#003300",
       "Header.activeBackground": "#003300",
-      "Header.inactiveBackground": "#444444",
+      "Header.inactiveBackground": "#111111",
       "separatorColor": "#003300",
       "separatorForeground": "#003300",
       "Advertiser": {
@@ -213,7 +217,7 @@
         "borderColor": "#111111"
       },
       "HeaderTab": {
-        "selectedInactiveBackground": "#444444",
+        "selectedInactiveBackground": "#003300",
         "hoverBackground": "#003300",
         "hoverInactiveBackground": "#003300",
         "underlineColor": "#029636"
