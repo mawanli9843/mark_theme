@@ -127,7 +127,7 @@
     },
     "Link": {
       "activeForeground": "#029636",
-      "hoverForeground": "#003300",
+      "hoverForeground": "#029636",
       "pressedForeground": "#029636",
       "visitedForeground": "#444444"
     },
